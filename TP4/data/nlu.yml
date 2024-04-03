@@ -89,13 +89,6 @@ nlu:
     - so sad
 - intent: giving_place_type
   examples: |
-    -Show me [restaurant](place_type) nearby
-    -Find [coffee](place_type) shops around here
-    -Locate [both coffee and restaurants](place_type) nearby
-    -I'm craving for [restaurants](place_type) around here
-    -Explore [restaurants](place_type) in this area
-    -Show me [coffee](place_type) houses within walking distance
-    -Find both [both coffee and restaurants](place_type) close to me
     -I want to discover [restaurant](place_type) in this vicinity
     -Locate [coffee](place_type) shops in this neighborhood
     - I want a [restaurant](place_type)
@@ -104,10 +97,6 @@ nlu:
     - Look for [restaurants](place_type) instead
 - intent: giving_address
   examples: |
-    - I live in [Scarborough](address), [Toronto](address), [ON](address), [Canada](address)
-    - [317 Dundas St W](address), [Toronto](address), [ON M5T 1G4](address), [Canada](address)
-    - I am currently at [Scarborough Civic Center](address), [Toronto](address), [ON](address), [Canada](address)
-    - My current location is [Ga 11](address), [Middle Badda](address), [Dhaka](address), [Bangladesh](address)
     - Find venues aroud [Alex Ekwueme Way](address), [Jabi](address), [Abuja](address), [Nigeria](address) within a [12.5](radius) km radius
     - Look for places about [34](radius) kilometres around the [Eifel tower](address), [Paris](address), [France](address)
     - [Dhaka](address), [Bangladesh](address)
@@ -121,20 +110,6 @@ nlu:
     - [Morocco](address)
 - intent: giving_radius
   examples: |
-    - Use a search radius of [5](radius) kilometers
-    - [20](radius)
-    - [ninety one](radius)
-    - [fifty](radius) kilometers
-    - Search within [eleven](radius) km from here.
-    - Search within [15](radius) km
-    - Give me venues [17.5](radius) km from here.
-    - Look for places [99](radius) kilometers from me.
-    - [3](radius) kilometres
-    - [twenty two point one] kilometer
-    - Use a radius of [twenty five](radius) km
-    - Search within [five](radius) km
-    - About [thirty](radius) kilometers
-    - Use a [30](radius) km search radius
     - [six](radius) kilometre
     - Find places within [a hundred](radius) km from here
     - Search within [five](radius) kilometers from here
